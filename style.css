@@ -13,7 +13,6 @@ body{
 
 .banner-content{
     display:flex;
-    flex-direction:row;
 }
 
 #logo{
@@ -21,22 +20,57 @@ body{
     font-size: 24px;
 }
 
-
 .list{
     font-size:18px;
-    color:#E5E7EB
+    color:#E5E7EB;
+    margin: 10px;
 }
 
 ul{
     display:flex;
-    flex-direction: row;
     list-style-type: none;
-    gap:16px;
 }
 
 .banner-left,.banner-right{
     display:flex;
+    width:50%;
     justify-content: center;
-    align-items: center;
-    width: 50%;
+    align-items:center;
+}
+
+h1{
+    font-size:48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+
+.content{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin: 64px;
+    color:#E5E7EB;
+}
+
+.content-left,.content-right{
+    display:flex;
+    width:50%;
+    flex-direction:column;
+    margin-bottom:72px;
+}
+
+.content-right{
+    display:flex;
+    margin-left:32px;
+    background-color:rgb(125, 125, 125);
+    text-align:center;
+    padding:64px;
+}
+
+button{
+    height:28px;
+    width:100px;
+    background-color:#3882F6;
+    border:0px;
+    color:white;
 }
